@@ -1,0 +1,45 @@
+.nav {
+    display: flex;
+    flex-direction: row;
+    margin: 30px 0;
+    padding: 0;
+    border-top: 1px grey solid;
+    list-style: none;
+    overflow-x: scroll;
+    white-space: nowrap;
+    scroll-behavior: smooth;
+}
+
+.nav-item {
+    margin: 10px 15px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+.nav-item:hover {
+    background-color: rgba(224, 224, 224, 0.4);
+}
+
+.active-tab {
+    background-color: rgba(207, 229, 255, 0.4) !important;
+    color: #527AAA;
+}
+
+.disabled-tab {
+  pointer-events: none;
+  z-index: -1;
+  color: #AFAFAF;
+}
+
+.right-shadow {
+    box-shadow: -40px 0 20px -20px #E0E0E0 inset;
+}
+
+.left-shadow {
+    box-shadow: 40px 0 20px -20px #E0E0E0 inset;
+}
+
+.left-and-right-shadow {
+    box-shadow: 40px 0 20px -20px #E0E0E0 inset , -40px 0 20px -20px #E0E0E0 inset;
+}
